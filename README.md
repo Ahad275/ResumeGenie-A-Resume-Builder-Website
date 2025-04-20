@@ -11,6 +11,12 @@ A responsive, dynamic resume generator that allows users to enter their personal
 - 📱 Responsive design for all screen sizes  
 - 🎨 Clean and modern UI inspired by professional CV templates
 
+##ScreenShot
+
+![image](https://github.com/user-attachments/assets/76ddd894-5961-4611-b278-fd6cb66a5803)
+![image](https://github.com/user-attachments/assets/111fb697-8c7d-4a75-a9da-1682272e4269)
+![image](https://github.com/user-attachments/assets/2381b27a-188a-4e33-a186-4497a71b418e)
+
 ## 🛠️ Tech Stack
 
 - HTML5  
