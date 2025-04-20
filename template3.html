@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Generator</title>
+  <link rel="stylesheet" href="template3.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CV Generator</h1>
+    <!-- Replace the existing form with this structured one -->
+    <form id="cv-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="phone" placeholder="Phone Number" required />
+      <input type="url" id="linkedin" placeholder="LinkedIn URL" required />
+      <input type="url" id="github" placeholder="GitHub URL" required />
+  
+      <h4>Technical Skills</h4>
+      <textarea id="skills" placeholder="Use format: Category: skill1, skill2" required></textarea>
+  
+      <h4>Projects</h4>
+      <textarea id="projects" placeholder="Use format: Project Name | Date | Tech Used | Description" required></textarea>
+  
+      <h4>Certifications</h4>
+      <textarea id="certifications" placeholder="Title | Platform | Date | Link" required></textarea>
+  
+      <h4>Achievements</h4>
+      <textarea id="achievements" placeholder="One per line" required></textarea>
+  
+      <h4>Education</h4>
+      <textarea id="education" placeholder="School | Degree | Location | Duration | Score" required></textarea>
+  
+      <button type="submit">Generate CV</button>
+    </form>
+
+    <div id="cv-output" class="hidden cv">
+      <h2 id="cv-name"></h2>
+      <div class="cv-header">
+        <p><strong>Email:</strong> <span id="cv-email"></span> | <strong>Mobile:</strong> <span id="cv-phone"></span></p>
+        <p><strong>LinkedIn:</strong> <a id="cv-linkedin" target="_blank"></a> | <strong>GitHub:</strong> <a id="cv-github" target="_blank"></a></p>
+      </div>
+
+      <h3>Technical Skills</h3>
+      <ul id="cv-skills"></ul>
+
+      <h3>Projects</h3>
+      <div id="cv-projects"></div>
+
+      <h3>Certifications</h3>
+      <ul id="cv-certifications"></ul>
+
+      <h3>Achievements</h3>
+      <ul id="cv-achievements"></ul>
+
+      <h3>Education</h3>
+      <ul id="cv-education"></ul>
+    </div>
+  </div>
+
+  <script src="template3.js"></script>
+</body>
+</html>

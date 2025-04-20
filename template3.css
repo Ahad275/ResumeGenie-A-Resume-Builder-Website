@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.cv {
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+.cv h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.cv h3 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+}
+
+.cv ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.cv ul li {
+    margin-bottom: 6px;
+}
+
+#cv-projects p {
+    margin-bottom: 12px;
+}
+
+.cv-list {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.project-entry, .edu-entry, .cert-entry {
+    margin-bottom: 15px;
+}
+
+.project-entry strong, .edu-entry strong {
+    display: block;
+    font-size: 1.05rem;
+    color: #222;
+}
+
+.project-date, .cert-date, .edu-duration {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.edu-entry, .cert-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.edu-left, .cert-left {
+    flex: 1 1 70%;
+}
+
+.edu-right, .cert-right {
+    flex: 1 1 30%;
+    text-align: right;
+    font-style: italic;
+    color: #555;
+}
+
+.project-entry {
+    margin-bottom: 15px;
+}
+
+.project-entry .project-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeGenie - Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" id="Home">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logoResumeGenie.png" alt="ResumeGenie Logo">
+                <h1>ResumeGenie</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#template-cards">Home</a></li>
+                <li><a href="#template-cards">Templates</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Template Section -->
+    <section id="template-cards" class="template-cards-section">
+        <div class="container card-grid">
+            <!-- Reusable Card -->
+
+            <div class="image-card">
+                <a href="template1.html" style="text-decoration: none;">
+                    <img src="template1.png" alt="Elegant Resume Template">
+                    <p class="caption">Minimal Resume Template</p>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="template2.html" style="text-decoration: none;">
+                    <img src="template2.png" alt="Creative Resume Template">
+                    <p class="caption">Creative Resume Template</p>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="template3.html" style="text-decoration: none;">
+                    <img src="template3.png" alt="Modern Resume Template">
+                    <p class="caption">Modern Resume Template</p>
+                </a>
+            </div>
+            <div class="image-card">
+                <a href="template4.html" style="text-decoration: none;">
+                    <img src="template4.png" alt="Professional Resume Template">
+                    <p class="caption">Professional Resume Template</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <!-- About Section  -->
+    <section id="about" class="about-section">
+        <div class="about-container-flex">
+            <div class="about-logo-wrapper">
+                <img src="logoResumeGenie.png" alt="ResumeGenie Logo" class="about-logo">
+            </div>
+            <div style="text-align: center;" class="about-content">
+                <h2 style="text-align: center;">About ResumeGenie</h2>
+                <p><strong>ResumeGenie</strong> is your go-to platform for crafting professional, modern, and impactful
+                    resumes in minutes...</p>
+                <p>We understand that a great resume opens doors. That's why ResumeGenie offers customizable
+                    templates...</p>
+                <p>No design skills? No problem. ResumeGenie lets you focus on your content while we handle the
+                    layout...</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <h2>Contact Us</h2>
+            <p class="contact-subtext">We'd love to hear from you! Fill out the form below and we'll get in touch soon.
+            </p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p class="form-status" id="form-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ResumeGenie. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

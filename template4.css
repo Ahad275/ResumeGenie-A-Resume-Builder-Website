@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resume.hidden {
+    display: none;
+  }
+  
+  .resume {
+    margin-top: 40px;
+  }
+  
+  .resume h1 {
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .resume p.center {
+    text-align: center;
+    margin: 4px 0;
+  }
+  
+  .contact {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .item-content {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  
+  .item-content li {
+    margin-bottom: 5px;
+  }
+  

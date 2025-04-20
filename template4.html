@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Generator</title>
+  <link rel="stylesheet" href="template4.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Generator</h1>
+    <form id="resumeForm">
+      <h2>Personal Details</h2>
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="text" id="location" placeholder="Location" required />
+      <input type="text" id="phone" placeholder="Phone" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="url" id="portfolio" placeholder="Portfolio URL" />
+      <input type="url" id="github" placeholder="GitHub URL" />
+
+      <h2>Projects</h2>
+      <div id="projects-section"></div>
+      <button type="button" onclick="addProject()">Add Project</button>
+
+      <h2>Certificates</h2>
+      <div id="certificates-section"></div>
+      <button type="button" onclick="addCertificate()">Add Certificate</button>
+
+      <h2>Skills</h2>
+      <input type="text" id="lang" placeholder="Languages" />
+      <input type="text" id="web" placeholder="Web Technologies" />
+      <input type="text" id="db" placeholder="Databases" />
+      <input type="text" id="tools" placeholder="Tools/Platforms" />
+
+      <h2>Education</h2>
+      <div id="education-section"></div>
+      <button type="button" onclick="addEducation()">Add Education</button>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resume" class="resume hidden"></div>
+  </div>
+
+  <script src="template4.js"></script>
+</body>
+</html>
